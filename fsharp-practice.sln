@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-practice", "fsharp-practice\fsharp-practice.fsproj", "{264C1366-E83E-4900-8EE2-F6DFCF01EC19}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-practice.Tests", "fsharp-practice.Tests\fsharp-practice.Tests.fsproj", "{D524A01C-9991-4DCC-8EB7-9A936C50C928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264C1366-E83E-4900-8EE2-F6DFCF01EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264C1366-E83E-4900-8EE2-F6DFCF01EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264C1366-E83E-4900-8EE2-F6DFCF01EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264C1366-E83E-4900-8EE2-F6DFCF01EC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D524A01C-9991-4DCC-8EB7-9A936C50C928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D524A01C-9991-4DCC-8EB7-9A936C50C928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D524A01C-9991-4DCC-8EB7-9A936C50C928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D524A01C-9991-4DCC-8EB7-9A936C50C928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
