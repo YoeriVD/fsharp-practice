@@ -4,8 +4,8 @@
 open Bmi
     
 [<EntryPoint>]
-let main argv =
-            bmi 81 1.74 
-            |> evaluateBmi
-            |> printf "%s"
-            0
+let main args =
+    bmi 81 1.74 
+    |> evaluateBmi
+    |> printf "%s"
+    0
