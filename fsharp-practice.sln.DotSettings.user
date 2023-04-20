@@ -1,7 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bbb3d90c_002Dfcd5_002D4334_002Dba5b_002D4f658864437d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="My test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::D524A01C-9991-4DCC-8EB7-9A936C50C928::net7.0::MathTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::D524A01C-9991-4DCC-8EB7-9A936C50C928::net7.0::ProgramTests.BMI should calculate weight in kg / (length in cm ^ 2)&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=25a0fad4_002D25d7_002D4a08_002D833e_002D2f23ed85a954/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;fsharp-practice.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/yoerivd/Code/fsharp-practice/fsharp-practice.Tests" Presentation="&amp;lt;fsharp-practice.Tests&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
