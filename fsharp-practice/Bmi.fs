@@ -4,7 +4,7 @@ open MathPipes
 
 let calculateBmi weight height =
     weight
-    |> divideBy (square height)
+    |> divideBy (height * height)
     |> roundByOne
     
 
