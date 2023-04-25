@@ -2,10 +2,10 @@ module Bmi
 
 open MathPipes
 
-let bmi weight height =
+let calculateBmi weight height =
     weight
-    |> divideBy (height * height)
-    |> roundBy 1
+    |> divideBy (square height)
+    |> roundByOne
     
 
 let evaluateBmi bmi =
@@ -14,3 +14,5 @@ let evaluateBmi bmi =
     | bmiValue when bmiValue >= 18.5 && bmiValue <= 24.9 -> "Normaal"
     | bmiValue when bmiValue >= 25.0 && bmiValue <= 29.9 -> "Overgewicht"
     | _ -> "Gezondheidsrisico"
+    
+let bmi weight heigth = calculateBmi weight heigth |> evaluateBmi

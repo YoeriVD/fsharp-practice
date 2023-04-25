@@ -6,8 +6,8 @@ open Bmi
 [<Theory>]
 [<InlineData(82, 1.74, 27.1)>]
 [<InlineData(65, 1.65, 23.9)>]
-let ``bmi should calculate bmi value for`` weight heigth (expectedBmi: decimal) =
-    let result = bmi weight heigth
+let ``calculateBmi should calculate bmi value for`` weight heigth (expectedBmi: decimal) =
+    let result = calculateBmi weight heigth
     Assert.Equal(expectedBmi, result |> decimal)
     
     
